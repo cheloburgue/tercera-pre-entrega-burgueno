@@ -1,0 +1,16 @@
+{% extends "AppCoder/padre.html" %}
+
+{% load static %}
+
+{% block titulo %} PAGINA DE INSTRUMENTOS {% endblock %}
+
+{% block contenido_que_cambia %}
+    <h1>INSTRUMENTOS</h1>
+    <form action="" method="POST"> {% csrf_token %}
+        <table>
+            {{formulario.as_table}}
+        </table>
+        <input type="submit" value = "Agregar">
+    </form>
+    <h3> {{mensaje}} </h3>
+{% endblock %}
