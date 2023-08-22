@@ -5,5 +5,9 @@
 {% block titulo %} PAGINA QUE BUSCA INSTRUMENTOS{% endblock %}
 
 {% block contenido_que_cambia %}
-    <h1>Contenido de la pagina de Busqueda</h1>
+    <h1>Buscar Instrumento</h1>
+    <form action = {% url 'buscarDatos' %} method="GET" >
+        <input type="text" name ="marca" id="marca" placeholder ="Ingrese codigo">
+        <input type="submit" value="Buscar Instrumento">
+    </form>
 {% endblock %}

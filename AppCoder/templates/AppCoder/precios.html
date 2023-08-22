@@ -2,10 +2,10 @@
 
 {% load static %}
 
-{% block titulo %} Ingreso de Precios{% endblock %}
+{% block titulo %} Ingreso de Precios {% endblock %}
 
 {% block contenido_que_cambia %}
-<h1>INSTRUMENTOS</h1>
+<h1>PRECIOS</h1>
 <form action="" method="POST"> {% csrf_token %}
         {{formulario.as_p}}
     <input type="submit" value = "Agregar Precio">
