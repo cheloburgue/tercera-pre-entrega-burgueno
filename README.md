@@ -1,4 +1,10 @@
 # tercera-pre-entrega-burgueno
+Description:
+
+EL PROGRAMA MUESTRA UNA PAGINA DE INSTRUMENTOS MUSICALES, DONDE NOS PERMITE CARGAR INSTRUMENTOS, PRECIOS DE LOS MISMOS y LOCALES DE VENTA. 
+TAMBIEN NOS DA LA OPCION DE BUSCAR TODOS LOS INSTRUMENTOS DISPONIBLES SEGUN LA MARCA.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1 - Clonar el repositorio de GitHub localmente mediante el comando:
       -> git clone https://github.com/cheloburgue/tercera-pre-entrega-burgueno
