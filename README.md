@@ -5,13 +5,13 @@
       
 ------------------------------------------------------------------------------------------------------------------------------------------------------
       
-2 - Abrimos Visual Studio code y en la consolta en caso de no tenerlo instalado corremos el siguiente comando (en caso de ya tenerlo omitir el paso 2)
+2 - Abrimos Visual Studio code y en la consolta en caso de no tenerlo instalado corremos el siguiente comando para instalar Django(en caso de ya tenerlo omitir el paso 2)
       -> pip install django
       
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 3 - Una vez instalado nos paramos sobre la carpeta raiz del proyecto importado '../tercera-pre-entrega-burgueno>' y ejecutamos el siguiente comando:
-      -> python manage.py run server
+      -> python manage.py runserver
       
     Este comando levantara un servidor local para poder visualizar la pagina correctamente
 ------------------------------------------------------------------------------------------------------------------------------------------------------
