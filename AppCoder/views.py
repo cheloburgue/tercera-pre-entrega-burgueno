@@ -67,7 +67,9 @@ def buscarDatos(request):
     marca = request.GET["marca"]
     if marca != "" :
         instrumento = Instrumento.objects.filter(marca__icontains=marca)
-        print("IMPRIMIR INSTRUMENTOS",instrumento)
-        return render(request, "AppCoder/resultadoBusqueda.html",{"instrumentos":instrumento})
+        if instrumento:
+            return render(request, "AppCoder/resultadoBusqueda.html",{"instrumentos":instrumento})
+        else:
+            return render(request, "AppCoder/buscarInstrumento.html",{"mensaje":"No se encontraron resultados para la busqueda!"})
     else:
-        return render(request, "AppCoder/resultadoBusqueda.html",{"mensaje":"No se ingresaron datos!"})
+        return render(request, "AppCoder/buscarInstrumento.html",{"mensaje":"No se ingresaron datos!"})

@@ -5,15 +5,10 @@
 {% block titulo %}BUSCAR INSTRUMENTOS{% endblock %}
 
 {% block contenido_que_cambia %}
-    {% if instrumentos %}
     <ul>
         <h1>Resultado Busqueda</h1>
         {% for instrumento in instrumentos %}
             <h3>{{instrumento.tipo}} - {{instrumento.marca}} - {{instrumento.codigo_instrumento}}</h3>
         {% endfor %}
     </ul>
-        <h2>{{mensaje}}</h2>
-    {% else %}
-        <h2 style="color:red"> No se encontraron instrumentos para el codigo ingresado!</h2>
-    {% endif %}
 {% endblock %}
