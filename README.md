@@ -24,11 +24,11 @@
 
 5 - Ya tenemso acceso a la Web! La misma cuanta con 5 secciones.
 
-boton Music Center  -> redirige a la pagina de inicio
-boton Instrumento -> Permite cargar instrumentos en mi base de datos atraves de un formulario ingresando tipo, marca y codigo de instrumento
-boton Precios -> Permite cargar precios en mi base de datos segun por codigo de instrumento
-boton Locales -> Permite agregar locales ingresando la direccion y localidad de los mismos
-boton buscar instrumento -> Busca todos los instrumentos que existan filtrando la busqueda por marca.
+- boton Music Center  -> redirige a la pagina de inicio
+- boton Instrumento -> Permite cargar instrumentos en mi base de datos atraves de un formulario ingresando tipo, marca y codigo de instrumento
+- boton Precios -> Permite cargar precios en mi base de datos segun por codigo de instrumento
+- boton Locales -> Permite agregar locales ingresando la direccion y localidad de los mismos
+- boton buscar instrumento -> Busca todos los instrumentos que existan filtrando la busqueda por marca.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
