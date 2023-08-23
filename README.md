@@ -6,12 +6,12 @@ TAMBIEN NOS DA LA OPCION DE BUSCAR TODOS LOS INSTRUMENTOS DISPONIBLES SEGUN LA M
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-1 - Clonar el repositorio de GitHub localmente mediante el comando:
+1 - Clonar el repositorio de GitHub localmente en la carpeta deseada mediante el comando:
       -> git clone https://github.com/cheloburgue/tercera-pre-entrega-burgueno
       
 ------------------------------------------------------------------------------------------------------------------------------------------------------
       
-2 - Abrimos Visual Studio code y en la consolta en caso de no tenerlo instalado corremos el siguiente comando para instalar Django(en caso de ya tenerlo omitir el paso 2)
+2 - Abrimos Visual Studio code y en la terminal en caso de no tenerlo instalado corremos el siguiente comando para instalar Django(en caso de ya tenerlo omitir el paso 2)
       -> pip install django
       
 ------------------------------------------------------------------------------------------------------------------------------------------------------
