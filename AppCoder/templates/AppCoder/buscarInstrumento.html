@@ -2,12 +2,12 @@
 
 {% load static %}
 
-{% block titulo %} PAGINA QUE BUSCA INSTRUMENTOS{% endblock %}
+{% block titulo %} Busqueda de instrumentos{% endblock %}
 
 {% block contenido_que_cambia %}
     <h1>Buscar Instrumento</h1>
     <form action = {% url 'buscarDatos' %} method="GET" >
-        <input type="text" name ="marca" id="marca" placeholder ="Ingrese codigo">
+        <input type="text" name ="marca" id="marca" placeholder ="Ingrese marca">
         <input type="submit" value="Buscar Instrumento">
     </form>
 {% endblock %}
