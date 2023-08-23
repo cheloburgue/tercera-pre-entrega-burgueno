@@ -28,7 +28,7 @@ TAMBIEN NOS DA LA OPCION DE BUSCAR TODOS LOS INSTRUMENTOS DISPONIBLES SEGUN LA M
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-5 - Ya tenemso acceso a la Web! La misma cuanta con 5 secciones.
+5 - Ya tenemos acceso a la Web! La misma cuanta con 5 secciones.
 
 - boton Music Center  -> redirige a la pagina de inicio
 - boton Instrumento -> Permite cargar instrumentos en mi base de datos atraves de un formulario ingresando tipo, marca y codigo de instrumento
